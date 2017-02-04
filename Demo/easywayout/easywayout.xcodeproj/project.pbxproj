@@ -21,19 +21,27 @@
 		5B0E844D1E218B9000F5CEBC /* NSObject+MarExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E844C1E218B9000F5CEBC /* NSObject+MarExtension.m */; };
 		5B0E84501E218D6000F5CEBC /* BMKMapView+MAREX.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E844F1E218D6000F5CEBC /* BMKMapView+MAREX.m */; };
 		5B0E84531E22565C00F5CEBC /* MARReserveParkspacePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E84521E22565C00F5CEBC /* MARReserveParkspacePopView.m */; };
-		5B1E10DD1E45599F000EE40C /* MXRWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10DC1E45599F000EE40C /* MXRWeakProxy.m */; };
-		5B1E10E01E455A3D000EE40C /* NSObject+MXRSwizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10DF1E455A3D000EE40C /* NSObject+MXRSwizz.m */; };
-		5B1E10F21E455BA5000EE40C /* MXRCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10E31E455BA5000EE40C /* MXRCallStack.m */; };
-		5B1E10F31E455BA5000EE40C /* MXRFPSObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10E51E455BA5000EE40C /* MXRFPSObserver.m */; };
-		5B1E10F41E455BA5000EE40C /* MXRMonitorRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10E71E455BA5000EE40C /* MXRMonitorRunloop.m */; };
-		5B1E10F51E455BA5000EE40C /* MXRProfilerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10E91E455BA5000EE40C /* MXRProfilerInfo.m */; };
-		5B1E10F61E455BA5000EE40C /* MXRProfilerURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10ED1E455BA5000EE40C /* MXRProfilerURLProtocol.m */; };
-		5B1E10F71E455BA5000EE40C /* MXRProfilerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10EF1E455BA5000EE40C /* MXRProfilerUtils.m */; };
-		5B1E10F81E455BA5000EE40C /* UIViewController+MXRProfier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10F11E455BA5000EE40C /* UIViewController+MXRProfier.m */; };
-		5B1E10FB1E455C3C000EE40C /* MXRProfilerStandstillDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10FA1E455C3C000EE40C /* MXRProfilerStandstillDetailViewController.m */; };
-		5B1E10FE1E455C65000EE40C /* MXRProfilerStandstillDetailScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E10FD1E455C65000EE40C /* MXRProfilerStandstillDetailScrollView.m */; };
-		5B1E11011E45684F000EE40C /* MXRProfilerNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E11001E45684F000EE40C /* MXRProfilerNavigationViewController.m */; };
-		5B1E11041E457ED0000EE40C /* MXRProfilerStandstillDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E11031E457ED0000EE40C /* MXRProfilerStandstillDetailView.m */; };
+		5B1E12321E45C86B000EE40C /* MXRProfilerStandstillInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E11FB1E45C86B000EE40C /* MXRProfilerStandstillInfo.m */; };
+		5B1E12331E45C86B000EE40C /* MXRProfilerURLInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E11FD1E45C86B000EE40C /* MXRProfilerURLInfo.m */; };
+		5B1E12341E45C86B000EE40C /* MXRProfilerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12001E45C86B000EE40C /* MXRProfilerTool.m */; };
+		5B1E12351E45C86B000EE40C /* MXRCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12041E45C86B000EE40C /* MXRCallStack.m */; };
+		5B1E12361E45C86B000EE40C /* MXRFPSObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12061E45C86B000EE40C /* MXRFPSObserver.m */; };
+		5B1E12371E45C86B000EE40C /* MXRMonitorRunloop.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12081E45C86B000EE40C /* MXRMonitorRunloop.m */; };
+		5B1E12381E45C86B000EE40C /* MXRProfilerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E120A1E45C86B000EE40C /* MXRProfilerInfo.m */; };
+		5B1E123A1E45C86B000EE40C /* MXRProfilerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12101E45C86B000EE40C /* MXRProfilerUtils.m */; };
+		5B1E123B1E45C86B000EE40C /* UIViewController+MXRProfier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12121E45C86B000EE40C /* UIViewController+MXRProfier.m */; };
+		5B1E123C1E45C86B000EE40C /* MXRWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12151E45C86B000EE40C /* MXRWeakProxy.m */; };
+		5B1E123D1E45C86B000EE40C /* NSObject+MXRSwizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12171E45C86B000EE40C /* NSObject+MXRSwizz.m */; };
+		5B1E123E1E45C86B000EE40C /* MXRProfilerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E121A1E45C86B000EE40C /* MXRProfilerBaseViewController.m */; };
+		5B1E123F1E45C86B000EE40C /* MXRProfilerNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E121C1E45C86B000EE40C /* MXRProfilerNavigationViewController.m */; };
+		5B1E12401E45C86B000EE40C /* MXRProfilerSimpleInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E121E1E45C86B000EE40C /* MXRProfilerSimpleInfoViewController.m */; };
+		5B1E12411E45C86B000EE40C /* MXRProfilerStandstillDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12201E45C86B000EE40C /* MXRProfilerStandstillDetailViewController.m */; };
+		5B1E12421E45C86B000EE40C /* MXRProfilerStandstillListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12221E45C86B000EE40C /* MXRProfilerStandstillListViewController.m */; };
+		5B1E12431E45C86B000EE40C /* MXRProfilerStandstillDetailScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12261E45C86B000EE40C /* MXRProfilerStandstillDetailScrollView.m */; };
+		5B1E12441E45C86B000EE40C /* MXRProfilerStandstillDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12281E45C86B000EE40C /* MXRProfilerStandstillDetailView.m */; };
+		5B1E12451E45C86B000EE40C /* MXRProfilerStandstillListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E122A1E45C86B000EE40C /* MXRProfilerStandstillListView.m */; };
+		5B1E12461E45C86B000EE40C /* MXRProfilerContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E122D1E45C86B000EE40C /* MXRProfilerContainerViewController.m */; };
+		5B1E12471E45C86B000EE40C /* MXRProfilerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1E12301E45C86B000EE40C /* MXRProfilerWindow.m */; };
 		5B58A4891E1BEC1E00713EB8 /* MARBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B58A4811E1BEC1E00713EB8 /* MARBaseViewController.m */; };
 		5B58A48A1E1BEC1E00713EB8 /* MARGlobalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B58A4831E1BEC1E00713EB8 /* MARGlobalManager.m */; };
 		5B58A48B1E1BEC1E00713EB8 /* MARUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B58A4851E1BEC1E00713EB8 /* MARUserDefault.m */; };
@@ -68,17 +76,8 @@
 		5B8215761E1846EB0070BA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8215741E1846EB0070BA88 /* LaunchScreen.storyboard */; };
 		5B8215811E1846EC0070BA88 /* easywayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8215801E1846EC0070BA88 /* easywayoutTests.m */; };
 		5B82158C1E1846EC0070BA88 /* easywayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B82158B1E1846EC0070BA88 /* easywayoutUITests.m */; };
-		5B8BAA8F1E38352A002A99DB /* MXRProfilerStandstillInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8BAA8E1E38352A002A99DB /* MXRProfilerStandstillInfo.m */; };
-		5B8BAA9B1E384C90002A99DB /* MXRProfilerStandstillListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8BAA9A1E384C90002A99DB /* MXRProfilerStandstillListViewController.m */; };
-		5B8BAAA51E387975002A99DB /* MXRProfilerStandstillListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8BAAA41E387975002A99DB /* MXRProfilerStandstillListView.m */; };
-		5B8BAAA81E387BFF002A99DB /* MXRProfilerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8BAAA71E387BFF002A99DB /* MXRProfilerBaseViewController.m */; };
-		5B8EEF1D1E34AB480088FB0F /* MXRProfilerURLInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8EEF1C1E34AB480088FB0F /* MXRProfilerURLInfo.m */; };
 		5BBAAC4B1E2CFC8600B3A6B8 /* CacheCleanerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAAC481E2CFC8600B3A6B8 /* CacheCleanerPlugin.m */; };
 		5BBAAC4C1E2CFC8600B3A6B8 /* RetainCycleLoggerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAAC4A1E2CFC8600B3A6B8 /* RetainCycleLoggerPlugin.m */; };
-		5BBAAC551E2D149A00B3A6B8 /* MXRProfilerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAAC541E2D149A00B3A6B8 /* MXRProfilerWindow.m */; };
-		5BBAAC591E2D15D300B3A6B8 /* MXRProfilerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAAC581E2D15D300B3A6B8 /* MXRProfilerTool.m */; };
-		5BBAAC5C1E2D19D600B3A6B8 /* MXRProfilerContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAAC5B1E2D19D600B3A6B8 /* MXRProfilerContainerViewController.m */; };
-		5BBAAC651E2D265600B3A6B8 /* MXRProfilerSimpleInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAAC641E2D265600B3A6B8 /* MXRProfilerSimpleInfoViewController.m */; };
 		9D42A5812DCF72F776577DB9 /* libPods-easywayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F87718C828F83B593E13D9B /* libPods-easywayout.a */; };
 /* End PBXBuildFile section */
 
@@ -131,34 +130,53 @@
 		5B0E844F1E218D6000F5CEBC /* BMKMapView+MAREX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BMKMapView+MAREX.m"; sourceTree = "<group>"; };
 		5B0E84511E22565C00F5CEBC /* MARReserveParkspacePopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARReserveParkspacePopView.h; sourceTree = "<group>"; };
 		5B0E84521E22565C00F5CEBC /* MARReserveParkspacePopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARReserveParkspacePopView.m; sourceTree = "<group>"; };
-		5B1E10DB1E45599F000EE40C /* MXRWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRWeakProxy.h; sourceTree = "<group>"; };
-		5B1E10DC1E45599F000EE40C /* MXRWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRWeakProxy.m; sourceTree = "<group>"; };
-		5B1E10DE1E455A3D000EE40C /* NSObject+MXRSwizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MXRSwizz.h"; sourceTree = "<group>"; };
-		5B1E10DF1E455A3D000EE40C /* NSObject+MXRSwizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MXRSwizz.m"; sourceTree = "<group>"; };
-		5B1E10E21E455BA5000EE40C /* MXRCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRCallStack.h; sourceTree = "<group>"; };
-		5B1E10E31E455BA5000EE40C /* MXRCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRCallStack.m; sourceTree = "<group>"; };
-		5B1E10E41E455BA5000EE40C /* MXRFPSObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRFPSObserver.h; sourceTree = "<group>"; };
-		5B1E10E51E455BA5000EE40C /* MXRFPSObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRFPSObserver.m; sourceTree = "<group>"; };
-		5B1E10E61E455BA5000EE40C /* MXRMonitorRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRMonitorRunloop.h; sourceTree = "<group>"; };
-		5B1E10E71E455BA5000EE40C /* MXRMonitorRunloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRMonitorRunloop.m; sourceTree = "<group>"; };
-		5B1E10E81E455BA5000EE40C /* MXRProfilerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerInfo.h; sourceTree = "<group>"; };
-		5B1E10E91E455BA5000EE40C /* MXRProfilerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerInfo.m; sourceTree = "<group>"; };
-		5B1E10EA1E455BA5000EE40C /* MXRProfilerNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerNotification.h; sourceTree = "<group>"; };
-		5B1E10EB1E455BA5000EE40C /* MXRProfilerPresentationModeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerPresentationModeDelegate.h; sourceTree = "<group>"; };
-		5B1E10EC1E455BA5000EE40C /* MXRProfilerURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerURLProtocol.h; sourceTree = "<group>"; };
-		5B1E10ED1E455BA5000EE40C /* MXRProfilerURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerURLProtocol.m; sourceTree = "<group>"; };
-		5B1E10EE1E455BA5000EE40C /* MXRProfilerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerUtils.h; sourceTree = "<group>"; };
-		5B1E10EF1E455BA5000EE40C /* MXRProfilerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerUtils.m; sourceTree = "<group>"; };
-		5B1E10F01E455BA5000EE40C /* UIViewController+MXRProfier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MXRProfier.h"; sourceTree = "<group>"; };
-		5B1E10F11E455BA5000EE40C /* UIViewController+MXRProfier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MXRProfier.m"; sourceTree = "<group>"; };
-		5B1E10F91E455C3C000EE40C /* MXRProfilerStandstillDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillDetailViewController.h; sourceTree = "<group>"; };
-		5B1E10FA1E455C3C000EE40C /* MXRProfilerStandstillDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillDetailViewController.m; sourceTree = "<group>"; };
-		5B1E10FC1E455C65000EE40C /* MXRProfilerStandstillDetailScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillDetailScrollView.h; sourceTree = "<group>"; };
-		5B1E10FD1E455C65000EE40C /* MXRProfilerStandstillDetailScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillDetailScrollView.m; sourceTree = "<group>"; };
-		5B1E10FF1E45684F000EE40C /* MXRProfilerNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerNavigationViewController.h; sourceTree = "<group>"; };
-		5B1E11001E45684F000EE40C /* MXRProfilerNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerNavigationViewController.m; sourceTree = "<group>"; };
-		5B1E11021E457ED0000EE40C /* MXRProfilerStandstillDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillDetailView.h; sourceTree = "<group>"; };
-		5B1E11031E457ED0000EE40C /* MXRProfilerStandstillDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillDetailView.m; sourceTree = "<group>"; };
+		5B1E11FA1E45C86B000EE40C /* MXRProfilerStandstillInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillInfo.h; sourceTree = "<group>"; };
+		5B1E11FB1E45C86B000EE40C /* MXRProfilerStandstillInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillInfo.m; sourceTree = "<group>"; };
+		5B1E11FC1E45C86B000EE40C /* MXRProfilerURLInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerURLInfo.h; sourceTree = "<group>"; };
+		5B1E11FD1E45C86B000EE40C /* MXRProfilerURLInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerURLInfo.m; sourceTree = "<group>"; };
+		5B1E11FE1E45C86B000EE40C /* MXRProfilerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerMacro.h; sourceTree = "<group>"; };
+		5B1E11FF1E45C86B000EE40C /* MXRProfilerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerTool.h; sourceTree = "<group>"; };
+		5B1E12001E45C86B000EE40C /* MXRProfilerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerTool.m; sourceTree = "<group>"; };
+		5B1E12031E45C86B000EE40C /* MXRCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRCallStack.h; sourceTree = "<group>"; };
+		5B1E12041E45C86B000EE40C /* MXRCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRCallStack.m; sourceTree = "<group>"; };
+		5B1E12051E45C86B000EE40C /* MXRFPSObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRFPSObserver.h; sourceTree = "<group>"; };
+		5B1E12061E45C86B000EE40C /* MXRFPSObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRFPSObserver.m; sourceTree = "<group>"; };
+		5B1E12071E45C86B000EE40C /* MXRMonitorRunloop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRMonitorRunloop.h; sourceTree = "<group>"; };
+		5B1E12081E45C86B000EE40C /* MXRMonitorRunloop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRMonitorRunloop.m; sourceTree = "<group>"; };
+		5B1E12091E45C86B000EE40C /* MXRProfilerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerInfo.h; sourceTree = "<group>"; };
+		5B1E120A1E45C86B000EE40C /* MXRProfilerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerInfo.m; sourceTree = "<group>"; };
+		5B1E120B1E45C86B000EE40C /* MXRProfilerNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerNotification.h; sourceTree = "<group>"; };
+		5B1E120C1E45C86B000EE40C /* MXRProfilerPresentationModeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerPresentationModeDelegate.h; sourceTree = "<group>"; };
+		5B1E120F1E45C86B000EE40C /* MXRProfilerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerUtils.h; sourceTree = "<group>"; };
+		5B1E12101E45C86B000EE40C /* MXRProfilerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerUtils.m; sourceTree = "<group>"; };
+		5B1E12111E45C86B000EE40C /* UIViewController+MXRProfier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MXRProfier.h"; sourceTree = "<group>"; };
+		5B1E12121E45C86B000EE40C /* UIViewController+MXRProfier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MXRProfier.m"; sourceTree = "<group>"; };
+		5B1E12141E45C86B000EE40C /* MXRWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRWeakProxy.h; sourceTree = "<group>"; };
+		5B1E12151E45C86B000EE40C /* MXRWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRWeakProxy.m; sourceTree = "<group>"; };
+		5B1E12161E45C86B000EE40C /* NSObject+MXRSwizz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MXRSwizz.h"; sourceTree = "<group>"; };
+		5B1E12171E45C86B000EE40C /* NSObject+MXRSwizz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MXRSwizz.m"; sourceTree = "<group>"; };
+		5B1E12191E45C86B000EE40C /* MXRProfilerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerBaseViewController.h; sourceTree = "<group>"; };
+		5B1E121A1E45C86B000EE40C /* MXRProfilerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerBaseViewController.m; sourceTree = "<group>"; };
+		5B1E121B1E45C86B000EE40C /* MXRProfilerNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerNavigationViewController.h; sourceTree = "<group>"; };
+		5B1E121C1E45C86B000EE40C /* MXRProfilerNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerNavigationViewController.m; sourceTree = "<group>"; };
+		5B1E121D1E45C86B000EE40C /* MXRProfilerSimpleInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerSimpleInfoViewController.h; sourceTree = "<group>"; };
+		5B1E121E1E45C86B000EE40C /* MXRProfilerSimpleInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerSimpleInfoViewController.m; sourceTree = "<group>"; };
+		5B1E121F1E45C86B000EE40C /* MXRProfilerStandstillDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillDetailViewController.h; sourceTree = "<group>"; };
+		5B1E12201E45C86B000EE40C /* MXRProfilerStandstillDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillDetailViewController.m; sourceTree = "<group>"; };
+		5B1E12211E45C86B000EE40C /* MXRProfilerStandstillListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillListViewController.h; sourceTree = "<group>"; };
+		5B1E12221E45C86B000EE40C /* MXRProfilerStandstillListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillListViewController.m; sourceTree = "<group>"; };
+		5B1E12251E45C86B000EE40C /* MXRProfilerStandstillDetailScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillDetailScrollView.h; sourceTree = "<group>"; };
+		5B1E12261E45C86B000EE40C /* MXRProfilerStandstillDetailScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillDetailScrollView.m; sourceTree = "<group>"; };
+		5B1E12271E45C86B000EE40C /* MXRProfilerStandstillDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillDetailView.h; sourceTree = "<group>"; };
+		5B1E12281E45C86B000EE40C /* MXRProfilerStandstillDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillDetailView.m; sourceTree = "<group>"; };
+		5B1E12291E45C86B000EE40C /* MXRProfilerStandstillListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillListView.h; sourceTree = "<group>"; };
+		5B1E122A1E45C86B000EE40C /* MXRProfilerStandstillListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillListView.m; sourceTree = "<group>"; };
+		5B1E122C1E45C86B000EE40C /* MXRProfilerContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerContainerViewController.h; sourceTree = "<group>"; };
+		5B1E122D1E45C86B000EE40C /* MXRProfilerContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerContainerViewController.m; sourceTree = "<group>"; };
+		5B1E122E1E45C86B000EE40C /* MXRProfilerMovableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerMovableViewController.h; sourceTree = "<group>"; };
+		5B1E122F1E45C86B000EE40C /* MXRProfilerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerWindow.h; sourceTree = "<group>"; };
+		5B1E12301E45C86B000EE40C /* MXRProfilerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerWindow.m; sourceTree = "<group>"; };
+		5B1E12311E45C86B000EE40C /* MXRProfilerWindowTouchesHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerWindowTouchesHandling.h; sourceTree = "<group>"; };
 		5B58A47E1E1BEC1E00713EB8 /* MARAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARAppDelegate.h; sourceTree = "<group>"; };
 		5B58A47F1E1BEC1E00713EB8 /* MARAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MARAppDelegate.m; sourceTree = "<group>"; };
 		5B58A4801E1BEC1E00713EB8 /* MARBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MARBaseViewController.h; sourceTree = "<group>"; };
@@ -213,31 +231,10 @@
 		5B82158B1E1846EC0070BA88 /* easywayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easywayoutUITests.m; sourceTree = "<group>"; };
 		5B82158D1E1846EC0070BA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B8215991E18504D0070BA88 /* easywayout-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "easywayout-Prefix.pch"; sourceTree = "<group>"; };
-		5B8BAA8D1E38352A002A99DB /* MXRProfilerStandstillInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillInfo.h; sourceTree = "<group>"; };
-		5B8BAA8E1E38352A002A99DB /* MXRProfilerStandstillInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillInfo.m; sourceTree = "<group>"; };
-		5B8BAA991E384C90002A99DB /* MXRProfilerStandstillListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillListViewController.h; sourceTree = "<group>"; };
-		5B8BAA9A1E384C90002A99DB /* MXRProfilerStandstillListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillListViewController.m; sourceTree = "<group>"; };
-		5B8BAAA31E387975002A99DB /* MXRProfilerStandstillListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerStandstillListView.h; sourceTree = "<group>"; };
-		5B8BAAA41E387975002A99DB /* MXRProfilerStandstillListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerStandstillListView.m; sourceTree = "<group>"; };
-		5B8BAAA61E387BFF002A99DB /* MXRProfilerBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerBaseViewController.h; sourceTree = "<group>"; };
-		5B8BAAA71E387BFF002A99DB /* MXRProfilerBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerBaseViewController.m; sourceTree = "<group>"; };
-		5B8EEF1B1E34AB480088FB0F /* MXRProfilerURLInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerURLInfo.h; sourceTree = "<group>"; };
-		5B8EEF1C1E34AB480088FB0F /* MXRProfilerURLInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerURLInfo.m; sourceTree = "<group>"; };
 		5BBAAC471E2CFC8600B3A6B8 /* CacheCleanerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheCleanerPlugin.h; sourceTree = "<group>"; };
 		5BBAAC481E2CFC8600B3A6B8 /* CacheCleanerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheCleanerPlugin.m; sourceTree = "<group>"; };
 		5BBAAC491E2CFC8600B3A6B8 /* RetainCycleLoggerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetainCycleLoggerPlugin.h; sourceTree = "<group>"; };
 		5BBAAC4A1E2CFC8600B3A6B8 /* RetainCycleLoggerPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetainCycleLoggerPlugin.m; sourceTree = "<group>"; };
-		5BBAAC531E2D149A00B3A6B8 /* MXRProfilerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerWindow.h; sourceTree = "<group>"; };
-		5BBAAC541E2D149A00B3A6B8 /* MXRProfilerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerWindow.m; sourceTree = "<group>"; };
-		5BBAAC561E2D14DF00B3A6B8 /* MXRProfilerWindowTouchesHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerWindowTouchesHandling.h; sourceTree = "<group>"; };
-		5BBAAC571E2D15D300B3A6B8 /* MXRProfilerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerTool.h; sourceTree = "<group>"; };
-		5BBAAC581E2D15D300B3A6B8 /* MXRProfilerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerTool.m; sourceTree = "<group>"; };
-		5BBAAC5A1E2D19D600B3A6B8 /* MXRProfilerContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerContainerViewController.h; sourceTree = "<group>"; };
-		5BBAAC5B1E2D19D600B3A6B8 /* MXRProfilerContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerContainerViewController.m; sourceTree = "<group>"; };
-		5BBAAC5D1E2D1B0600B3A6B8 /* MXRProfilerMovableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerMovableViewController.h; sourceTree = "<group>"; };
-		5BBAAC631E2D265600B3A6B8 /* MXRProfilerSimpleInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerSimpleInfoViewController.h; sourceTree = "<group>"; };
-		5BBAAC641E2D265600B3A6B8 /* MXRProfilerSimpleInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXRProfilerSimpleInfoViewController.m; sourceTree = "<group>"; };
-		AAECC5A91E2DB220007E662F /* MXRProfilerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXRProfilerMacro.h; sourceTree = "<group>"; };
 		BA82C0B845A1DE85CBE9FB90 /* Pods-easywayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easywayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easywayout/Pods-easywayout.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -275,38 +272,115 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B1E10DA1E45599F000EE40C /* unity */ = {
+		5B1E11F81E45C86B000EE40C /* MXRProfilerTool */ = {
 			isa = PBXGroup;
 			children = (
-				5B1E10DB1E45599F000EE40C /* MXRWeakProxy.h */,
-				5B1E10DC1E45599F000EE40C /* MXRWeakProxy.m */,
-				5B1E10DE1E455A3D000EE40C /* NSObject+MXRSwizz.h */,
-				5B1E10DF1E455A3D000EE40C /* NSObject+MXRSwizz.m */,
+				5B1E11F91E45C86B000EE40C /* model */,
+				5B1E11FE1E45C86B000EE40C /* MXRProfilerMacro.h */,
+				5B1E11FF1E45C86B000EE40C /* MXRProfilerTool.h */,
+				5B1E12001E45C86B000EE40C /* MXRProfilerTool.m */,
+				5B1E12021E45C86B000EE40C /* performance */,
+				5B1E12131E45C86B000EE40C /* unity */,
+				5B1E12181E45C86B000EE40C /* viewcontrollers */,
+				5B1E122B1E45C86B000EE40C /* window */,
+			);
+			name = MXRProfilerTool;
+			path = ../../../MXRProfilerTool;
+			sourceTree = "<group>";
+		};
+		5B1E11F91E45C86B000EE40C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E11FA1E45C86B000EE40C /* MXRProfilerStandstillInfo.h */,
+				5B1E11FB1E45C86B000EE40C /* MXRProfilerStandstillInfo.m */,
+				5B1E11FC1E45C86B000EE40C /* MXRProfilerURLInfo.h */,
+				5B1E11FD1E45C86B000EE40C /* MXRProfilerURLInfo.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5B1E12021E45C86B000EE40C /* performance */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E12031E45C86B000EE40C /* MXRCallStack.h */,
+				5B1E12041E45C86B000EE40C /* MXRCallStack.m */,
+				5B1E12051E45C86B000EE40C /* MXRFPSObserver.h */,
+				5B1E12061E45C86B000EE40C /* MXRFPSObserver.m */,
+				5B1E12071E45C86B000EE40C /* MXRMonitorRunloop.h */,
+				5B1E12081E45C86B000EE40C /* MXRMonitorRunloop.m */,
+				5B1E12091E45C86B000EE40C /* MXRProfilerInfo.h */,
+				5B1E120A1E45C86B000EE40C /* MXRProfilerInfo.m */,
+				5B1E120B1E45C86B000EE40C /* MXRProfilerNotification.h */,
+				5B1E120C1E45C86B000EE40C /* MXRProfilerPresentationModeDelegate.h */,
+				5B1E120F1E45C86B000EE40C /* MXRProfilerUtils.h */,
+				5B1E12101E45C86B000EE40C /* MXRProfilerUtils.m */,
+				5B1E12111E45C86B000EE40C /* UIViewController+MXRProfier.h */,
+				5B1E12121E45C86B000EE40C /* UIViewController+MXRProfier.m */,
+			);
+			path = performance;
+			sourceTree = "<group>";
+		};
+		5B1E12131E45C86B000EE40C /* unity */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E12141E45C86B000EE40C /* MXRWeakProxy.h */,
+				5B1E12151E45C86B000EE40C /* MXRWeakProxy.m */,
+				5B1E12161E45C86B000EE40C /* NSObject+MXRSwizz.h */,
+				5B1E12171E45C86B000EE40C /* NSObject+MXRSwizz.m */,
 			);
 			path = unity;
 			sourceTree = "<group>";
 		};
-		5B1E10E11E455BA5000EE40C /* performance */ = {
+		5B1E12181E45C86B000EE40C /* viewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				5B1E10E21E455BA5000EE40C /* MXRCallStack.h */,
-				5B1E10E31E455BA5000EE40C /* MXRCallStack.m */,
-				5B1E10E41E455BA5000EE40C /* MXRFPSObserver.h */,
-				5B1E10E51E455BA5000EE40C /* MXRFPSObserver.m */,
-				5B1E10E61E455BA5000EE40C /* MXRMonitorRunloop.h */,
-				5B1E10E71E455BA5000EE40C /* MXRMonitorRunloop.m */,
-				5B1E10E81E455BA5000EE40C /* MXRProfilerInfo.h */,
-				5B1E10E91E455BA5000EE40C /* MXRProfilerInfo.m */,
-				5B1E10EA1E455BA5000EE40C /* MXRProfilerNotification.h */,
-				5B1E10EB1E455BA5000EE40C /* MXRProfilerPresentationModeDelegate.h */,
-				5B1E10EC1E455BA5000EE40C /* MXRProfilerURLProtocol.h */,
-				5B1E10ED1E455BA5000EE40C /* MXRProfilerURLProtocol.m */,
-				5B1E10EE1E455BA5000EE40C /* MXRProfilerUtils.h */,
-				5B1E10EF1E455BA5000EE40C /* MXRProfilerUtils.m */,
-				5B1E10F01E455BA5000EE40C /* UIViewController+MXRProfier.h */,
-				5B1E10F11E455BA5000EE40C /* UIViewController+MXRProfier.m */,
+				5B1E12191E45C86B000EE40C /* MXRProfilerBaseViewController.h */,
+				5B1E121A1E45C86B000EE40C /* MXRProfilerBaseViewController.m */,
+				5B1E121B1E45C86B000EE40C /* MXRProfilerNavigationViewController.h */,
+				5B1E121C1E45C86B000EE40C /* MXRProfilerNavigationViewController.m */,
+				5B1E121D1E45C86B000EE40C /* MXRProfilerSimpleInfoViewController.h */,
+				5B1E121E1E45C86B000EE40C /* MXRProfilerSimpleInfoViewController.m */,
+				5B1E121F1E45C86B000EE40C /* MXRProfilerStandstillDetailViewController.h */,
+				5B1E12201E45C86B000EE40C /* MXRProfilerStandstillDetailViewController.m */,
+				5B1E12211E45C86B000EE40C /* MXRProfilerStandstillListViewController.h */,
+				5B1E12221E45C86B000EE40C /* MXRProfilerStandstillListViewController.m */,
+				5B1E12231E45C86B000EE40C /* view */,
 			);
-			path = performance;
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		5B1E12231E45C86B000EE40C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E12241E45C86B000EE40C /* cell */,
+				5B1E12251E45C86B000EE40C /* MXRProfilerStandstillDetailScrollView.h */,
+				5B1E12261E45C86B000EE40C /* MXRProfilerStandstillDetailScrollView.m */,
+				5B1E12271E45C86B000EE40C /* MXRProfilerStandstillDetailView.h */,
+				5B1E12281E45C86B000EE40C /* MXRProfilerStandstillDetailView.m */,
+				5B1E12291E45C86B000EE40C /* MXRProfilerStandstillListView.h */,
+				5B1E122A1E45C86B000EE40C /* MXRProfilerStandstillListView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5B1E12241E45C86B000EE40C /* cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		5B1E122B1E45C86B000EE40C /* window */ = {
+			isa = PBXGroup;
+			children = (
+				5B1E122C1E45C86B000EE40C /* MXRProfilerContainerViewController.h */,
+				5B1E122D1E45C86B000EE40C /* MXRProfilerContainerViewController.m */,
+				5B1E122E1E45C86B000EE40C /* MXRProfilerMovableViewController.h */,
+				5B1E122F1E45C86B000EE40C /* MXRProfilerWindow.h */,
+				5B1E12301E45C86B000EE40C /* MXRProfilerWindow.m */,
+				5B1E12311E45C86B000EE40C /* MXRProfilerWindowTouchesHandling.h */,
+			);
+			path = window;
 			sourceTree = "<group>";
 		};
 		5B58A4751E1A499600713EB8 /* MARTools */ = {
@@ -503,8 +577,7 @@
 		5B8215651E1846EB0070BA88 /* easywayout */ = {
 			isa = PBXGroup;
 			children = (
-				5BBAAC4E1E2D132100B3A6B8 /* MXRProfiler */,
-				5BBAAC4D1E2D097400B3A6B8 /* MXRmonitorTool */,
+				5B1E11F81E45C86B000EE40C /* MXRProfilerTool */,
 				5B58A4F11E1E966000713EB8 /* Models */,
 				5B58A4BA1E1C099200713EB8 /* Modules */,
 				5B58A4751E1A499600713EB8 /* MARTools */,
@@ -548,91 +621,6 @@
 				5B82158D1E1846EC0070BA88 /* Info.plist */,
 			);
 			path = easywayoutUITests;
-			sourceTree = "<group>";
-		};
-		5B8BAA971E384886002A99DB /* view */ = {
-			isa = PBXGroup;
-			children = (
-				5B8BAA981E384886002A99DB /* cell */,
-				5B8BAAA31E387975002A99DB /* MXRProfilerStandstillListView.h */,
-				5B8BAAA41E387975002A99DB /* MXRProfilerStandstillListView.m */,
-				5B1E10FC1E455C65000EE40C /* MXRProfilerStandstillDetailScrollView.h */,
-				5B1E10FD1E455C65000EE40C /* MXRProfilerStandstillDetailScrollView.m */,
-				5B1E11021E457ED0000EE40C /* MXRProfilerStandstillDetailView.h */,
-				5B1E11031E457ED0000EE40C /* MXRProfilerStandstillDetailView.m */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		5B8BAA981E384886002A99DB /* cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = cell;
-			sourceTree = "<group>";
-		};
-		5B8EEF1A1E34AB130088FB0F /* model */ = {
-			isa = PBXGroup;
-			children = (
-				5B8EEF1B1E34AB480088FB0F /* MXRProfilerURLInfo.h */,
-				5B8EEF1C1E34AB480088FB0F /* MXRProfilerURLInfo.m */,
-				5B8BAA8D1E38352A002A99DB /* MXRProfilerStandstillInfo.h */,
-				5B8BAA8E1E38352A002A99DB /* MXRProfilerStandstillInfo.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		5BBAAC4D1E2D097400B3A6B8 /* MXRmonitorTool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MXRmonitorTool;
-			sourceTree = "<group>";
-		};
-		5BBAAC4E1E2D132100B3A6B8 /* MXRProfiler */ = {
-			isa = PBXGroup;
-			children = (
-				5B1E10E11E455BA5000EE40C /* performance */,
-				5B1E10DA1E45599F000EE40C /* unity */,
-				5B8EEF1A1E34AB130088FB0F /* model */,
-				5BBAAC621E2D263700B3A6B8 /* viewcontrollers */,
-				5BBAAC521E2D149A00B3A6B8 /* window */,
-				5BBAAC571E2D15D300B3A6B8 /* MXRProfilerTool.h */,
-				5BBAAC581E2D15D300B3A6B8 /* MXRProfilerTool.m */,
-				AAECC5A91E2DB220007E662F /* MXRProfilerMacro.h */,
-			);
-			path = MXRProfiler;
-			sourceTree = "<group>";
-		};
-		5BBAAC521E2D149A00B3A6B8 /* window */ = {
-			isa = PBXGroup;
-			children = (
-				5BBAAC531E2D149A00B3A6B8 /* MXRProfilerWindow.h */,
-				5BBAAC541E2D149A00B3A6B8 /* MXRProfilerWindow.m */,
-				5BBAAC561E2D14DF00B3A6B8 /* MXRProfilerWindowTouchesHandling.h */,
-				5BBAAC5A1E2D19D600B3A6B8 /* MXRProfilerContainerViewController.h */,
-				5BBAAC5B1E2D19D600B3A6B8 /* MXRProfilerContainerViewController.m */,
-				5BBAAC5D1E2D1B0600B3A6B8 /* MXRProfilerMovableViewController.h */,
-			);
-			path = window;
-			sourceTree = "<group>";
-		};
-		5BBAAC621E2D263700B3A6B8 /* viewcontrollers */ = {
-			isa = PBXGroup;
-			children = (
-				5B8BAA971E384886002A99DB /* view */,
-				5B8BAAA61E387BFF002A99DB /* MXRProfilerBaseViewController.h */,
-				5B8BAAA71E387BFF002A99DB /* MXRProfilerBaseViewController.m */,
-				5B1E10FF1E45684F000EE40C /* MXRProfilerNavigationViewController.h */,
-				5B1E11001E45684F000EE40C /* MXRProfilerNavigationViewController.m */,
-				5BBAAC631E2D265600B3A6B8 /* MXRProfilerSimpleInfoViewController.h */,
-				5BBAAC641E2D265600B3A6B8 /* MXRProfilerSimpleInfoViewController.m */,
-				5B8BAA991E384C90002A99DB /* MXRProfilerStandstillListViewController.h */,
-				5B8BAA9A1E384C90002A99DB /* MXRProfilerStandstillListViewController.m */,
-				5B1E10F91E455C3C000EE40C /* MXRProfilerStandstillDetailViewController.h */,
-				5B1E10FA1E455C3C000EE40C /* MXRProfilerStandstillDetailViewController.m */,
-			);
-			path = viewcontrollers;
 			sourceTree = "<group>";
 		};
 		8D2ABA99DF3110F784AE6ECC /* Pods */ = {
@@ -840,62 +828,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8BAAA51E387975002A99DB /* MXRProfilerStandstillListView.m in Sources */,
+				5B1E123C1E45C86B000EE40C /* MXRWeakProxy.m in Sources */,
 				5B58A5011E1EB17A00713EB8 /* MARAddVehicleViewController.m in Sources */,
 				5B58A48A1E1BEC1E00713EB8 /* MARGlobalManager.m in Sources */,
-				5B1E10F21E455BA5000EE40C /* MXRCallStack.m in Sources */,
-				5B1E10F61E455BA5000EE40C /* MXRProfilerURLProtocol.m in Sources */,
-				5B1E10FE1E455C65000EE40C /* MXRProfilerStandstillDetailScrollView.m in Sources */,
 				5B0E842F1E1EC2B100F5CEBC /* UINavigationController+MarExtension.m in Sources */,
 				5B82156E1E1846EB0070BA88 /* ViewController.mm in Sources */,
 				5B0E844D1E218B9000F5CEBC /* NSObject+MarExtension.m in Sources */,
 				5B58A4FE1E1EB10A00713EB8 /* MARPrepareAddVehicleViewController.m in Sources */,
+				5B1E123B1E45C86B000EE40C /* UIViewController+MXRProfier.m in Sources */,
 				5B58A4EC1E1D830600713EB8 /* MARHighlightedButton.m in Sources */,
-				5B1E10F41E455BA5000EE40C /* MXRMonitorRunloop.m in Sources */,
 				5B0E84441E203E7100F5CEBC /* MarReserveParkSpaceViewController.m in Sources */,
-				5BBAAC591E2D15D300B3A6B8 /* MXRProfilerTool.m in Sources */,
 				5B58A4911E1BF0A800713EB8 /* SVProgressHUD+MarExtension.m in Sources */,
-				5B8BAA8F1E38352A002A99DB /* MXRProfilerStandstillInfo.m in Sources */,
 				5B0E84501E218D6000F5CEBC /* BMKMapView+MAREX.m in Sources */,
-				5B1E10FB1E455C3C000EE40C /* MXRProfilerStandstillDetailViewController.m in Sources */,
+				5B1E123D1E45C86B000EE40C /* NSObject+MXRSwizz.m in Sources */,
+				5B1E12421E45C86B000EE40C /* MXRProfilerStandstillListViewController.m in Sources */,
 				5B0E84471E203ED600F5CEBC /* MARReserveParkSpaceResultViewController.m in Sources */,
-				5B1E10DD1E45599F000EE40C /* MXRWeakProxy.m in Sources */,
 				5B0E84321E1EC40C00F5CEBC /* MARMyVehicleViewController.m in Sources */,
-				5BBAAC651E2D265600B3A6B8 /* MXRProfilerSimpleInfoViewController.m in Sources */,
+				5B1E12451E45C86B000EE40C /* MXRProfilerStandstillListView.m in Sources */,
 				5B58A4D71E1C15E400713EB8 /* MARLoginViewController.m in Sources */,
 				5B0E843B1E200CB100F5CEBC /* MARResetPasswordViewController.m in Sources */,
 				5B0E84411E202B4000F5CEBC /* MARLoginModeuleBaseViewController.m in Sources */,
-				5B1E10F51E455BA5000EE40C /* MXRProfilerInfo.m in Sources */,
-				5B1E10F71E455BA5000EE40C /* MXRProfilerUtils.m in Sources */,
-				5B1E10F31E455BA5000EE40C /* MXRFPSObserver.m in Sources */,
+				5B1E12441E45C86B000EE40C /* MXRProfilerStandstillDetailView.m in Sources */,
 				5B0E84281E1EBA3200F5CEBC /* MARConstant.m in Sources */,
 				5B58A49C1E1BF38B00713EB8 /* MARAppDelegate.m in Sources */,
 				5B0E844A1E21696700F5CEBC /* MARMainLogicBaseVC.m in Sources */,
 				5BBAAC4B1E2CFC8600B3A6B8 /* CacheCleanerPlugin.m in Sources */,
+				5B1E12401E45C86B000EE40C /* MXRProfilerSimpleInfoViewController.m in Sources */,
 				5B0E843E1E20182B00F5CEBC /* MARVerifyPhoneCodeViewController.m in Sources */,
-				5B8BAAA81E387BFF002A99DB /* MXRProfilerBaseViewController.m in Sources */,
 				5B82156B1E1846EB0070BA88 /* AppDelegate.mm in Sources */,
 				5B58A4F71E1E96BB00713EB8 /* MARVehicle.m in Sources */,
+				5B1E12341E45C86B000EE40C /* MXRProfilerTool.m in Sources */,
 				5B58A4E01E1C160000713EB8 /* AboutusViewController.m in Sources */,
 				5B58A4941E1BF37300713EB8 /* NSString+MarExtension.m in Sources */,
 				5B0E84531E22565C00F5CEBC /* MARReserveParkspacePopView.m in Sources */,
-				5B8EEF1D1E34AB480088FB0F /* MXRProfilerURLInfo.m in Sources */,
+				5B1E12411E45C86B000EE40C /* MXRProfilerStandstillDetailViewController.m in Sources */,
+				5B1E12371E45C86B000EE40C /* MXRMonitorRunloop.m in Sources */,
+				5B1E123E1E45C86B000EE40C /* MXRProfilerBaseViewController.m in Sources */,
 				5B58A5041E1EB2C700713EB8 /* MARVehicleDBM.m in Sources */,
-				5B1E10F81E455BA5000EE40C /* UIViewController+MXRProfier.m in Sources */,
-				5B1E11041E457ED0000EE40C /* MXRProfilerStandstillDetailView.m in Sources */,
-				5B1E11011E45684F000EE40C /* MXRProfilerNavigationViewController.m in Sources */,
+				5B1E12471E45C86B000EE40C /* MXRProfilerWindow.m in Sources */,
+				5B1E12361E45C86B000EE40C /* MXRFPSObserver.m in Sources */,
+				5B1E12381E45C86B000EE40C /* MXRProfilerInfo.m in Sources */,
 				5B58A4E81E1D5AC600713EB8 /* MARMainViewController.m in Sources */,
 				5B0E84351E1FDFF100F5CEBC /* MARRegisterViewController.m in Sources */,
+				5B1E12461E45C86B000EE40C /* MXRProfilerContainerViewController.m in Sources */,
+				5B1E123A1E45C86B000EE40C /* MXRProfilerUtils.m in Sources */,
 				5B58A4891E1BEC1E00713EB8 /* MARBaseViewController.m in Sources */,
-				5B8BAA9B1E384C90002A99DB /* MXRProfilerStandstillListViewController.m in Sources */,
+				5B1E123F1E45C86B000EE40C /* MXRProfilerNavigationViewController.m in Sources */,
 				5B58A4F01E1E94B600713EB8 /* MARBaseDBModel.m in Sources */,
 				5B8215681E1846EB0070BA88 /* main.m in Sources */,
-				5BBAAC5C1E2D19D600B3A6B8 /* MXRProfilerContainerViewController.m in Sources */,
 				5B58A48B1E1BEC1E00713EB8 /* MARUserDefault.m in Sources */,
-				5BBAAC551E2D149A00B3A6B8 /* MXRProfilerWindow.m in Sources */,
+				5B1E12431E45C86B000EE40C /* MXRProfilerStandstillDetailScrollView.m in Sources */,
+				5B1E12321E45C86B000EE40C /* MXRProfilerStandstillInfo.m in Sources */,
 				5BBAAC4C1E2CFC8600B3A6B8 /* RetainCycleLoggerPlugin.m in Sources */,
 				5B0E84251E1EB99D00F5CEBC /* UIViewController+MarExtension.m in Sources */,
-				5B1E10E01E455A3D000EE40C /* NSObject+MXRSwizz.m in Sources */,
+				5B1E12331E45C86B000EE40C /* MXRProfilerURLInfo.m in Sources */,
+				5B1E12351E45C86B000EE40C /* MXRCallStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,8 +10,8 @@
 #import "MXRCallStack.h"
 #import "MXRProfilerMacro.h"
 
-static const NSInteger MXRMonitorRunloopStandstillCount = 1;                // 多少次卡顿纪录为一次有效卡顿
-static const NSInteger MXRMonitorRunloopOneStandstillMillisecond = 20;      // 超过多少毫秒为一次卡顿
+static const NSInteger MXRMonitorRunloopStandstillCount = 5;                // 多少次卡顿纪录为一次有效卡顿
+static const NSInteger MXRMonitorRunloopOneStandstillMillisecond = 50;      // 超过多少毫秒为一次卡顿
 
 @interface MXRMonitorRunloop(){
     CFRunLoopObserverRef _observer;
@@ -106,7 +106,7 @@ static void runLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopActi
 
 - (void)doSomeWhenValidStandstill
 {
-    NSLog(@"all thread : %@", [MXRCallStack mxr_backtraceOfAllThread]);
+    
 }
 
 @end

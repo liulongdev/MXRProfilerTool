@@ -13,7 +13,6 @@
 #import "MXRProfilerSimpleInfoViewController.h"
 #import "MXRProfilerStandstillListViewController.h"
 #import "MXRMonitorRunloop.h"
-#import "MXRProfilerURLProtocol.h"
 #import "MXRProfilerInfo.h"
 #import "MXRProfilerStandstillInfo.h"
 #import "MXRCallStack.h"
@@ -69,7 +68,6 @@ static const NSUInteger kMXRStandstaillVCHeight = 250;
     };
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(monitorStandstillHappend) name:MXRPROFILERNOTIFICATION_HAPPENSTANDSTILL object:nil];
-//    [NSURLProtocol registerClass:[MXRProfilerURLProtocol class]];
 }
 
 - (void)monitorStandstillHappend
@@ -82,7 +80,6 @@ static const NSUInteger kMXRStandstaillVCHeight = 250;
 - (void)endAnalyze
 {
     [[MXRMonitorRunloop sharedInstance] endMonitor];
-    [NSURLProtocol unregisterClass:[MXRProfilerURLProtocol class]];
 }
 
 - (void)setPresentationMode:(MXRProfilerPresentationMode)presentationMode

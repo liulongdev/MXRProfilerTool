@@ -11,7 +11,6 @@
 #import "MXRWeakProxy.h"
 #import "MXRFPSObserver.h"
 #import "MXRProfilerMacro.h"
-#import "MXRProfilerURLProtocol.h"
 
 static const CGFloat MXRProfierSignWidth = 15;
 
@@ -224,7 +223,6 @@ static const CGFloat MXRProfierSignWidth = 15;
 
 - (void)buttonTap:(id)sender
 {
-    NSLog(@"standstaills : %@", MXRPROFILERINFO.standstaillInfos);
     if ([_delegate respondsToSelector:@selector(presentationDelegateChangePresentationModeToMode:)]) {
         [_delegate presentationDelegateChangePresentationModeToMode:MXRProfilerPresentationMode_Standstill];
     }

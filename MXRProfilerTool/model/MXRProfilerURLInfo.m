@@ -28,10 +28,10 @@
     return NO;
 }
 
-- (NSString *)description
-{
-    return [NSString stringWithFormat:@" VCClass : %@\n preURL : %@\n absoluteURL : %@\n requestCount : %ld\n requestSize : %ld\n responseSize : %ld", self.VCClassString, self.preURLString, self.absoluteURLString, self.requestCount, self.requestSize, self.responseSize];
-}
+//- (NSString *)description
+//{
+//    return [NSString stringWithFormat:@" VCClass : %@\n preURL : %@\n absoluteURL : %@\n requestCount : %ld\n requestSize : %ld\n responseSize : %ld", self.VCClassString, self.preURLString, self.absoluteURLString, self.requestCount, self.requestSize, self.responseSize];
+//}
 
 - (id)copyWithZone:(NSZone *)zone
 {
